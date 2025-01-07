@@ -2,7 +2,6 @@
 module.exports = {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   presets: [],
-  darkMode: 'media', // or 'class'
   theme: {
     screens: {
       sm: '640px',
@@ -15,9 +14,9 @@ module.exports = {
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,
-      primary: "#9333EA",
-      secondary: "#ff7e33",
-      info: "#0C63E7",
+      primary: "#172554",
+      secondary: "#fbcfe8",
+      info: "#e0e7ff",
       black: colors.black,
       white: colors.white,
       slate: colors.slate,
