@@ -1,0 +1,51 @@
+---
+import Container from "./Container.astro"
+---
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-[#5e35b1] to-[#9575cd]"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-[#7e57c2] to-[#5e35b1]"></div>
+    </div>
+    <Container>
+        <div class="relative pt-36 ml-auto">
+            <div class="lg:w-2/3 text-center mx-auto">
+                <h1 class="text-[#311b92] font-bold text-5xl md:text-6xl xl:text-7xl">YoungMedScholars</h1>
+                <p class="mt-8 text-[#5e35b1]">YoungMedScholars empowers high school students passionate about pre-med and science with free resources, internships, and courses to foster growth and prepare future leaders in medicine.</p>
+                <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                    <a
+                      href="#"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r from-[#5e35b1] to-[#9575cd] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                    >
+                      <span class="relative text-base font-semibold text-white"
+                        >Get started</span
+                      >
+                    </a>
+                    <a
+                      href="#"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-[#7e57c2] before:bg-[#ede7f6] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                    >
+                      <span
+                        class="relative text-base font-semibold text-[#5e35b1]"
+                        >Learn more</span
+                      >
+                    </a>
+                </div>
+                <div class="hidden py-8 mt-16 border-y border-[#7e57c2]/50 sm:flex justify-between">
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-[#5e35b1]">Excellent Opportunities</h6>
+                        <p class="mt-2 text-[#311b92]">Members gain access to free internships, certifications, leadership opportunities, and global networking, enhancing their profiles for colleges and medical schools.</p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-[#5e35b1]">Free courses</h6>
+                        <p class="mt-2 text-[#311b92]">Explore free, expertly designed courses in Medicine, Anatomy, and Psychology to kickstart your journey in the medical and science fields!</p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-[#5e35b1]">Study Guides and Blog</h6>
+                        <p class="mt-2 text-[#311b92]">Access comprehensive, student-friendly study guides tailored to help you excel in medicine, anatomy, psychology, and beyond!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Container>
+</div>

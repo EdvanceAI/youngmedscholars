@@ -2,8 +2,8 @@
 
 A page template built with astro and tailwindcss using tailus blocks.
 
-![Tailus astro based theme](./public/astrolus-light.png)
-![Tailus astro based dark theme](./public/astrolus-dark.png)
+![Tailus astro based theme](publicstrolus-light.png)
+![Tailus astro based dark theme](publicstrolus-dark.png)
 
 ## 🚀 Project Structure
 
