@@ -10,7 +10,7 @@ import Container from "./Container.astro"
     <Container>
         <div class="relative pt-36 pb-20 ml-auto">
             <div class="lg:w-2/3 text-center mx-auto">
-                <h1 class="bg-gradient-to-r from-purple-500 to-indigo-700 text-transparent bg-clip-text font-bold text-5xl md:text-6xl xl:text-7xl leading-none pb-4">
+                <h1 class="bg-gradient-to-r from-purple-400 to-indigo-500 text-transparent bg-clip-text font-bold text-5xl md:text-6xl xl:text-7xl leading-none pb-4">
                 YoungMedScholars
                 </h1>
                 <p class="mt-8 text-purple-800 text-lg md:text-xl leading-relaxed">
@@ -46,7 +46,7 @@ import Container from "./Container.astro"
             <div class="mt-6 flex flex-wrap justify-center gap-y-4 gap-x-6">
                 <a
                     href="#join"
-                    class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r from-purple-700 to-indigo-600 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                    class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r from-purple-400 to-indigo-500 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                 >
                     <span class="relative text-base font-semibold text-white">
                         Become a Member
@@ -67,35 +67,7 @@ import Container from "./Container.astro"
     <Container>
         <!-- Three Column Section -->
         <div class="mt-16 grid md:grid-cols-2 gap-12" id="courses">
-            <!-- Free Courses -->
-            <div class="bg-white/90 p-8 rounded-2xl shadow-lg">
-                <h2 class="text-2xl font-bold text-purple-900 mb-6">Free courses offered</h2>
-                <ul class="space-y-4">
-                    <li class="border-b border-purple-100 pb-3">
-                        <p class="font-semibold text-purple-800">Introduction to Medicine</p>
-                        <p class="text-sm text-purple-600">1-2 months</p>
-                    </li>
-                    <li class="border-b border-purple-100 pb-3">
-                        <p class="font-semibold text-purple-800">Introduction to Anatomy</p>
-                        <p class="text-sm text-purple-600">1-2 months</p>
-                    </li>
-                    <li class="border-b border-purple-100 pb-3">
-                        <p class="font-semibold text-purple-800">Introduction to Psychology</p>
-                        <p class="text-sm text-purple-600">1-2 months</p>
-                    </li>
-                </ul>
-                <p class="mt-4 text-sm text-purple-700">Coming Soon (2025)!</p>
-                <a
-                    href="https://forms.gle/fPM3mMDYjMryZraF7"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="mt-10 inline-block px-6 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-full text-sm font-medium hover:from-purple-700 hover:to-indigo-700 transition-colors"
-                >
-                    Register for Courses
-                </a>
-            </div>
-
-            <!-- Study Guides and Newsletter -->
+        <!-- Study Guides and Newsletter -->
             <div class="space-y-8">
                 <!-- Study Guides -->
                 <div class="bg-gradient-to-br from-purple-100 to-indigo-100 p-8 rounded-2xl shadow-lg">
@@ -115,6 +87,34 @@ import Container from "./Container.astro"
                     <span class="mt-4 inline-block text-sm font-medium text-indigo-600">Coming Soon!</span>
                 </div>
             </div>
+            <!-- Free Courses -->
+            <div class="bg-white/90 p-8 rounded-2xl shadow-lg">
+            <h2 class="text-2xl font-bold text-purple-900 mb-6">Free courses offered</h2>
+            <ul class="space-y-4">
+                <li class="border-b border-purple-100 pb-3">
+                    <p class="font-semibold text-purple-800">Introduction to Medicine</p>
+                    <p class="text-sm text-purple-600">1-2 months</p>
+                </li>
+                <li class="border-b border-purple-100 pb-3">
+                    <p class="font-semibold text-purple-800">Introduction to Anatomy</p>
+                    <p class="text-sm text-purple-600">1-2 months</p>
+                </li>
+                <li class="border-b border-purple-100 pb-3">
+                    <p class="font-semibold text-purple-800">Introduction to Psychology</p>
+                    <p class="text-sm text-purple-600">1-2 months</p>
+                </li>
+            </ul>
+            <p class="mt-4 text-sm text-purple-700">Coming Soon (2025)!</p>
+            <a
+            target="_blank"
+                    href="https://forms.gle/fPM3mMDYjMryZraF7"
+                    class="mt-10 inline-block px-6 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-full text-sm font-medium hover:from-purple-700 hover:to-indigo-700 transition-colors"
+                >
+                    <span class="relative text-base">
+                        Register for Courses
+                    </span>
+                </a>
+        </div>
         </div>
         <hr class="mb-12 mt-14 border-t border-purple-300 my-20">
         <!-- Membership and Benefits Section -->
@@ -150,14 +150,16 @@ import Container from "./Container.astro"
                             Fill out Membership form
                         </li>
                         <li class="flex items-center gap-2">
-                            <a
-                                href="https://forms.gle/fPM3mMDYjMryZraF7"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="mt-5 inline-block px-6 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-full text-sm font-medium hover:from-purple-700 hover:to-indigo-700 transition-colors"
-                            >
-                                Membership Form
-                            </a>
+
+             <a
+            target="_blank"
+                    href="https://forms.gle/aLG5TwFaB8fQ5hCn6"
+                    class="mt-10 inline-block px-6 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-full text-sm font-medium hover:from-purple-700 hover:to-indigo-700 transition-colors"
+                >
+                    <span class="relative text-base">
+                        Membership Form
+                    </span>
+                </a>
                         </li>
                     </ul>
                 </div>
@@ -175,38 +177,41 @@ import Container from "./Container.astro"
             </div>
         </div>
         <!-- Blog Section -->
-        <div class="mt-24 bg-white/90 p-8 rounded-2xl">
-            <h2 class="text-3xl font-bold text-indigo-800 mb-8 text-center">Latest from Our Blog</h2>
+<div class="mt-24 mb-16">
+            <h2 class="text-3xl font-bold text-indigo-800 mb-12 text-center">Latest from Our Blog</h2>
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Blog Post 1 -->
-                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                {/* Blog Post 1 */}
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform hover:scale-105">
+                    <div class="h-48 bg-gradient-to-r from-purple-400 to-indigo-400"></div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-purple-900 mb-2">Medical School Journey</h3>
-                        <p class="text-purple-700 mb-4">Tips and insights from current medical students...</p>
-                        <span class="text-sm text-indigo-600">Coming Soon!</span>
+                        <h3 class="text-xl font-bold text-purple-900 mb-3">Medical School Journey</h3>
+                        <p class="text-purple-700 mb-4 line-clamp-3">Tips and insights from current medical students on navigating the path to becoming a doctor...</p>
+                        <span class="inline-block px-4 py-1 rounded-full bg-indigo-100 text-sm font-medium text-indigo-600">Coming Soon!</span>
                     </div>
                 </div>
 
-                <!-- Blog Post 2 -->
-                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                {/* Blog Post 2 */}
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform hover:scale-105">
+                    <div class="h-48 bg-gradient-to-r from-indigo-400 to-purple-400"></div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-purple-900 mb-2">Research Opportunities</h3>
-                        <p class="text-purple-700 mb-4">Guide to finding research opportunities in high school...</p>
-                        <span class="text-sm text-indigo-600">Coming Soon!</span>
+                        <h3 class="text-xl font-bold text-purple-900 mb-3">Research Opportunities</h3>
+                        <p class="text-purple-700 mb-4 line-clamp-3">Comprehensive guide to finding and securing research opportunities during high school...</p>
+                        <span class="inline-block px-4 py-1 rounded-full bg-indigo-100 text-sm font-medium text-indigo-600">Coming Soon!</span>
                     </div>
                 </div>
 
-                <!-- Blog Post 3 -->
-                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                {/* Blog Post 3 */}
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform hover:scale-105">
+                    <div class="h-48 bg-gradient-to-r from-purple-400 to-indigo-400"></div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-purple-900 mb-2">Healthcare Innovation</h3>
-                        <p class="text-purple-700 mb-4">Latest developments in medical technology...</p>
-                        <span class="text-sm text-indigo-600">Coming Soon!</span>
+                        <h3 class="text-xl font-bold text-purple-900 mb-3">Healthcare Innovation</h3>
+                        <p class="text-purple-700 mb-4 line-clamp-3">Exploring the latest developments in medical technology and their impact on healthcare...</p>
+                        <span class="inline-block px-4 py-1 rounded-full bg-indigo-100 text-sm font-medium text-indigo-600">Coming Soon!</span>
                     </div>
                 </div>
             </div>
         </div>
     </Container>
- </div>
+</div>
 
 
