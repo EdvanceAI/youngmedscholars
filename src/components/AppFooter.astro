@@ -6,6 +6,7 @@ import Container from "./Container.astro";
     <Container>
         <div class="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
             <div class="flex flex-wrap items-center justify-between md:flex-nowrap">
+                <!-- Text Section -->
                 <div class="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-full sm:text-left">
                     <span class="block text-light-blue">
                         YoungMedScholars empowers high school students passionate about pre-med and science with free resources, internships, and courses to foster growth and prepare future leaders in medicine.
@@ -14,12 +15,18 @@ import Container from "./Container.astro";
                         Need help? <a href="mailto:youngmedscholar@gmail.com" class="font-semibold text-light-blue">Contact Us</a>
                     </span>
                 </div>
+
+                <!-- Social Media Section -->
                 <div class="flex justify-center sm:justify-start">
-                    <a href="https://www.instagram.com/youngmedscholar/" class="flex items-center space-x-3 transition hover:text-primary text-light-blue">
+                    <a
+                        href="https://www.instagram.com/youngmedscholar/"
+                        class="flex items-center space-x-3 transition hover:text-primary text-light-blue"
+                        aria-label="Follow YoungMedScholars on Instagram"
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="currentColor"
-                            class="w-5"
+                            class="w-6 h-6"
                             viewBox="0 0 16 16"
                         >
                             <path

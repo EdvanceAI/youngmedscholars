@@ -3,49 +3,210 @@ import Container from "./Container.astro"
 ---
 
 <div class="relative" id="home">
-    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
-        <div class="blur-[106px] h-56 bg-gradient-to-br from-[#5e35b1] to-[#9575cd]"></div>
-        <div class="blur-[106px] h-32 bg-gradient-to-r from-[#7e57c2] to-[#5e35b1]"></div>
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-30">
+        <div class="blur-[106px] h-60 bg-gradient-to-br from-purple-800 to-indigo-600"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-purple-400 to-purple-800"></div>
     </div>
     <Container>
-        <div class="relative pt-36 ml-auto">
+        <div class="relative pt-36 pb-20 ml-auto">
             <div class="lg:w-2/3 text-center mx-auto">
-                <h1 class="text-[#311b92] font-bold text-5xl md:text-6xl xl:text-7xl">YoungMedScholars</h1>
-                <p class="mt-8 text-[#5e35b1]">YoungMedScholars empowers high school students passionate about pre-med and science with free resources, internships, and courses to foster growth and prepare future leaders in medicine.</p>
-                <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-                    <a
-                      href="#"
-                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r from-[#5e35b1] to-[#9575cd] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                    >
-                      <span class="relative text-base font-semibold text-white"
-                        >Get started</span
-                      >
-                    </a>
-                    <a
-                      href="#"
-                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-[#7e57c2] before:bg-[#ede7f6] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                    >
-                      <span
-                        class="relative text-base font-semibold text-[#5e35b1]"
-                        >Learn more</span
-                      >
-                    </a>
+                <h1 class="bg-gradient-to-r from-purple-500 to-indigo-700 text-transparent bg-clip-text font-bold text-5xl md:text-6xl xl:text-7xl leading-none pb-4">
+                YoungMedScholars
+                </h1>
+                <p class="mt-8 text-purple-800 text-lg md:text-xl leading-relaxed">
+                    Empowers high school students passionate about pre-med and science with free resources, internships, and courses to foster growth and prepare future leaders in medicine.
+                </p>
+                <div class="hidden py-8 mt-4 sm:flex justify-between gap-8 bg-">
+                    <div class="text-center">
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <h6 class="text-lg font-semibold text-purple-800">Global Opportunities</h6>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                            <h6 class="text-lg font-semibold text-purple-800">Free Courses</h6>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="flex items-center gap-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                            </svg>
+                            <h6 class="text-lg font-semibold text-purple-800">Study Resources</h6>
+                        </div>
+                    </div>
                 </div>
-                <div class="hidden py-8 mt-16 border-y border-[#7e57c2]/50 sm:flex justify-between">
-                    <div class="text-left">
-                        <h6 class="text-lg font-semibold text-[#5e35b1]">Excellent Opportunities</h6>
-                        <p class="mt-2 text-[#311b92]">Members gain access to free internships, certifications, leadership opportunities, and global networking, enhancing their profiles for colleges and medical schools.</p>
+            </div>
+            <div class="mt-6 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                <a
+                    href="#join"
+                    class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r from-purple-700 to-indigo-600 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                >
+                    <span class="relative text-base font-semibold text-white">
+                        Become a Member
+                    </span>
+                </a>
+                <a
+                    href="#courses"
+                    class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:border-2 before:border-purple-700 before:bg-transparent before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                >
+                    <span class="relative text-base font-semibold text-purple-700">
+                        Learn More
+                    </span>
+                </a>
+            </div>
+        </div>
+    </Container>
+
+    <Container>
+        <!-- Three Column Section -->
+        <div class="mt-16 grid md:grid-cols-2 gap-12" id="courses">
+            <!-- Free Courses -->
+            <div class="bg-white/90 p-8 rounded-2xl shadow-lg">
+                <h2 class="text-2xl font-bold text-purple-900 mb-6">Free courses offered</h2>
+                <ul class="space-y-4">
+                    <li class="border-b border-purple-100 pb-3">
+                        <p class="font-semibold text-purple-800">Introduction to Medicine</p>
+                        <p class="text-sm text-purple-600">1-2 months</p>
+                    </li>
+                    <li class="border-b border-purple-100 pb-3">
+                        <p class="font-semibold text-purple-800">Introduction to Anatomy</p>
+                        <p class="text-sm text-purple-600">1-2 months</p>
+                    </li>
+                    <li class="border-b border-purple-100 pb-3">
+                        <p class="font-semibold text-purple-800">Introduction to Psychology</p>
+                        <p class="text-sm text-purple-600">1-2 months</p>
+                    </li>
+                </ul>
+                <p class="mt-4 text-sm text-purple-700">Coming Soon (2025)!</p>
+                <a
+                    href="https://forms.gle/fPM3mMDYjMryZraF7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="mt-10 inline-block px-6 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-full text-sm font-medium hover:from-purple-700 hover:to-indigo-700 transition-colors"
+                >
+                    Register for Courses
+                </a>
+            </div>
+
+            <!-- Study Guides and Newsletter -->
+            <div class="space-y-8">
+                <!-- Study Guides -->
+                <div class="bg-gradient-to-br from-purple-100 to-indigo-100 p-8 rounded-2xl shadow-lg">
+                    <h2 class="text-2xl font-bold text-purple-900 mb-6">Study Guides</h2>
+                    <p class="text-purple-800 leading-relaxed">
+                        Comprehensive study materials designed to help you excel in your medical education. Our guides cover essential and advanced topics.
+                    </p>
+                    <span class="mt-4 inline-block text-sm font-medium text-indigo-600">Coming Soon!</span>
+                </div>
+
+                <!-- Newsletter and Internships -->
+                <div class="bg-gradient-to-br from-indigo-100 to-purple-100 p-8 rounded-2xl shadow-lg">
+                    <h2 class="text-2xl font-bold text-purple-900 mb-6">Newsletter & Internships</h2>
+                    <p class="text-purple-800 leading-relaxed">
+                        Subscribe to our newsletter for updates on internship opportunities, medical news, and educational resources.
+                    </p>
+                    <span class="mt-4 inline-block text-sm font-medium text-indigo-600">Coming Soon!</span>
+                </div>
+            </div>
+        </div>
+        <hr class="mb-12 mt-14 border-t border-purple-300 my-20">
+        <!-- Membership and Benefits Section -->
+        <div class="grid md:grid-cols-2 gap-12 items-start" id="join">
+            <!-- Apply to be a member -->
+            <div class="bg-white/80 p-8 rounded-2xl shadow-xl">
+                <h2 class="text-3xl font-bold text-purple-900 mb-6">Apply to be a member</h2>
+                <div class="space-y-4">
+                    <h3 class="text-xl font-semibold text-purple-800">Requirements:</h3>
+                    <ul class="space-y-3 text-purple-900">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Age: 13-19
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Genuine Interest in Medicine/Sciences
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Follow @youngmedscholar on Instagram
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Fill out Membership form
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <a
+                                href="https://forms.gle/fPM3mMDYjMryZraF7"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="mt-5 inline-block px-6 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-full text-sm font-medium hover:from-purple-700 hover:to-indigo-700 transition-colors"
+                            >
+                                Membership Form
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Opportunities and Benefits -->
+            <div class="p-8 rounded-2xl text-indigo-800">
+                <h2 class="text-3xl font-bold mb-6">Opportunities. Benefits. Internships</h2>
+                <p class="text-lg leading-relaxed">
+                    Receive letters of recommendation, free internship offers, and certification that are impressive for colleges and medical schools. Learn about science, medicine and leadership.
+                </p>
+                <p class="mt-4 text-lg leading-relaxed">
+                    We're proud to have members from <strong>15+ countries</strong>
+                </p>
+            </div>
+        </div>
+        <!-- Blog Section -->
+        <div class="mt-24 bg-white/90 p-8 rounded-2xl">
+            <h2 class="text-3xl font-bold text-indigo-800 mb-8 text-center">Latest from Our Blog</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-purple-900 mb-2">Medical School Journey</h3>
+                        <p class="text-purple-700 mb-4">Tips and insights from current medical students...</p>
+                        <span class="text-sm text-indigo-600">Coming Soon!</span>
                     </div>
-                    <div class="text-left">
-                        <h6 class="text-lg font-semibold text-[#5e35b1]">Free courses</h6>
-                        <p class="mt-2 text-[#311b92]">Explore free, expertly designed courses in Medicine, Anatomy, and Psychology to kickstart your journey in the medical and science fields!</p>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-purple-900 mb-2">Research Opportunities</h3>
+                        <p class="text-purple-700 mb-4">Guide to finding research opportunities in high school...</p>
+                        <span class="text-sm text-indigo-600">Coming Soon!</span>
                     </div>
-                    <div class="text-left">
-                        <h6 class="text-lg font-semibold text-[#5e35b1]">Study Guides and Blog</h6>
-                        <p class="mt-2 text-[#311b92]">Access comprehensive, student-friendly study guides tailored to help you excel in medicine, anatomy, psychology, and beyond!</p>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-purple-900 mb-2">Healthcare Innovation</h3>
+                        <p class="text-purple-700 mb-4">Latest developments in medical technology...</p>
+                        <span class="text-sm text-indigo-600">Coming Soon!</span>
                     </div>
                 </div>
             </div>
         </div>
     </Container>
-</div>
+ </div>
+
+
